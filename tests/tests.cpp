@@ -4,9 +4,13 @@
 // Implement a function that prints a greeting to the console
 //
 // (see assignment brief for marking criteria / additional marks)
-
+using namespace std;
 void hello () {
-	// [Add your code here]
+    string name;
+    cout << "What is your name: " << endl;
+    cin >> name;
+    cout << "Hello, " << name << endl;
+    
 }
 
 
